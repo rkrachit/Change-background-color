@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    .container {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .colors {
+      display: block;
+      margin: 0 auto;
+      width: 10%;
+      cursor: pointer;
+    }
+
+    .text {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading" style="font-weight: bolder; font-size: 5rem; text-align: center;">  
+      ANYTIME GYM
+    </div>
+    <div class="image">
+      <img src="/images/gym website_3.jpg" width="100%" alt="digital_india" />
+    </div>
+
+    <div id="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut
+      perspiciatis debitis cumque quod earum totam mollitia, explicabo
+      architecto voluptatum odio quas sunt quibusdam, minima tempore
+      molestias. Veritatis, quisquam incidunt nobis beatae maiores cumque
+      atque aperiam quis nostrum. Possimus quo vitae, dolores id consectetur
+      asperiores explicabo pariatur dolor quod veritatis omnis necessitatibus
+      molestias est animi ipsum fugit distinctio delectus, sapiente, corrupti
+      sit maiores similique dignissimos eligendi. Sed magnam distinctio nam
+      neque recusandae! Exercitationem accusantium accusamus vitae, deleniti
+      tenetur, totam iure quasi ipsum ad numquam, facere eveniet non
+      voluptates enim suscipit dicta atque necessitatibus facilis saepe in
+      maiores consequatur sequi! Nisi veniam a atque quos illum minus fugit,
+      provident eveniet, quia amet aliquid? Similique aliquid aliquam
+      voluptatum qui vero dolores dolor minus perspiciatis veniam, assumenda
+      labore rem expedita. Mollitia dignissimos architecto alias dolores
+      officia soluta autem, voluptas enim dolore ab cumque aliquid rem quod,
+      cum assumenda non vel, sed inventore ipsa sint tempore voluptate
+      accusantium? Necessitatibus aut illo pariatur modi aspernatur tempora
+      corporis error ducimus cumque dolorum cum iure dolor odit, reiciendis
+      aperiam possimus cupiditate nisi porro repellat expedita commodi culpa
+      maiores! Ea et itaque odio sunt. Laborum, voluptates ea unde eaque
+      corrupti sed ullam, similique nostrum, veritatis nemo maiores facilis
+      eveniet distinctio? Iste, porro officiis aperiam voluptates enim
+      tempore. Explicabo praesentium ad quibusdam iure laborum ipsam veniam
+      recusandae earum inventore ratione expedita eius aliquid mollitia
+      officia perspiciatis consectetur, veritatis tempore, sed debitis. Earum
+      officiis, quibusdam maiores modi dolore laboriosam fuga porro nisi eos
+      dolorem dicta provident quam iste dolorum amet neque reiciendis
+      doloremque at commodi? Ea deserunt, sed, laudantium aliquam quod fuga
+      facere doloremque explicabo ratione dicta quia! Vero aperiam beatae in
+      odio, obcaecati cum ipsam. Consequuntur provident libero officiis
+      reiciendis optio mollitia natus enim tempore atque officia doloribus nam
+      harum, dolore exercitationem non voluptate architecto, sapiente voluptas
+      et aliquid.
+    </div>
+  </div>
+  <div class="colors">
+    <div id="red" style="
+          background-color: red;
+          border-radius: 100%;
+          display: inline-block;
+          padding: 10px;
+        ">
+      r
+    </div>
+    <div id="yellow" style="
+          background-color: yellow;
+          border-radius: 50%;
+          display: inline-block;
+          padding: 10px;
+        ">
+      y
+    </div>
+    <div id="green" style="
+          background-color: green;
+          border-radius: 50%;
+          display: inline-block;
+          padding: 10px;
+        ">
+      g
+    </div>
+ 
+  </div>
+  <p style="text-align: center; font-size: 1.5rem; color: grey;">choose background-color</p>
+
+  <script>
+    var x = document.getElementById("red");
+    x.addEventListener("click", function () {
+      document.getElementById("text").style.backgroundColor =
+        document.getElementById("red").style.backgroundColor;
+    });
+
+    var y = document.getElementById("yellow");
+    y.addEventListener("click", function () {
+      document.getElementById("text").style.backgroundColor =
+        document.getElementById("yellow").style.backgroundColor;
+    });
+
+    var z = document.getElementById("green");
+    z.addEventListener("click", function () {
+      document.getElementById("text").style.backgroundColor =
+        document.getElementById("green").style.backgroundColor;
+    });
+  </script>
+</body>
+
+</html>
